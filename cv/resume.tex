@@ -1,0 +1,55 @@
+\documentclass[letter,10pt]{article}
+%\usepackage[utf8]{inputenc}
+
+% Lang handler
+% 'fr' or 'en'
+%\def\mainlang{en} % Default value
+\providecommand{\mainlang}{fr} % Default value
+\newcommand{\iflang}[3]{
+    \ifdefstring{\mainlang}{#1}{#2}{#3}
+}
+
+% Style file
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Alexis LAFRANCE} % Name Here
+\def\phone{+33 6 26 67 66 41}
+\def\city{Thonon Les Bains}
+\def\email{alexislafrance42@outlook.fr}
+\def\LinkedIn{alexis-lafrance} % linkedin.com/in/______
+\def\github{alafrance} % github username
+\iflang{fr}
+{
+    \def\role{Développeur web fullstack} % JOB TITLE
+}
+{
+    \def\role{Fullstack web developer} % JOB TITLE
+}
+\def\portfolio{alexis-lafrance.com}
+\def\littoral{alafrance.github.io/littoral-francais}
+
+
+\input{sections/header}
+\begin{document}
+    \input{sections/about}
+
+    \section{Compétences}
+    \input{sections/skills}
+
+    \section{Expériences}
+    \input{sections/experience}
+
+    \section{Formations}
+    \input{sections/education}
+
+% make a newpage wherever it is a clean break
+% \newpage
+
+    \section{Projets}
+    \input{sections/project}
+
+
+\end{document}
