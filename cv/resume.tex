@@ -1,10 +1,9 @@
 \documentclass[letter,10pt]{article}
-%\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
 
 % Lang handler
 % 'fr' or 'en'
-%\def\mainlang{en} % Default value
-\providecommand{\mainlang}{fr} % Default value
+\providecommand{\mainlang}{fr} % Default value 'fr'
 \newcommand{\iflang}[3]{
     \ifdefstring{\mainlang}{#1}{#2}{#3}
 }
