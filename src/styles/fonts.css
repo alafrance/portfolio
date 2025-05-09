@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: "bueno";
+    font-style: normal;
+    src: url("/fonts/bueno/bueno-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-style: italic;
+    src: url("/fonts/source-sans-pro/SourceSansPro-Italic.otf") format("otf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-style:  normal;
+    font-weight: 700;
+    src: url("/fonts/source-sans-pro/SourceSansPro-Bold.otf") format("otf");
+}
+
+@font-face {
+    font-family: "source-sans-pro";
+    font-style: normal;
+    src: url("/fonts/source-sans-pro/SourceSansPro-Regular.otf") format("otf");
+}
+
+@theme {
+    --font-bueno: "bueno", sans-serif;
+    --font-sans: "source-sans-pro", sans-serif;
+}
+
+@layer base {
+    * {
+        @apply font-sans;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bueno;
+    }
+}

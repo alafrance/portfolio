@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/styles/global.css";
+import "@/styles/fonts.css";
 import {Providers} from "@/app/providers";
+import React from "react";
+
 export const metadata: Metadata = {
   title: "Alexis LAFRANCE - Portfolio",
   description: "Portfolio of Alexis LAFRANCE, a full-stack developer.",
