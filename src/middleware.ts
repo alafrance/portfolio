@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { i18n } from "@/i18n";
-import {getLocale} from "@/lib/utils";
+import {getLocale} from "@/lib/utils-server";
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -30,5 +30,5 @@ export function middleware(request: NextRequest) {
 
 // Matcher ignoring `/_next/` and `/api/`
 export const config = {
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|fonts).*)"],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|fonts|images).*)"],
 };

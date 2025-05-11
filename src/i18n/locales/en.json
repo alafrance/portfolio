@@ -1,3 +1,14 @@
 {
-  "title": "My application"
+  "navbar": {
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "title": "My Application",
+  "header": {
+    "jobTitle": "Fullstack developer",
+    "description": "Hi, i am a fullstack developer, i am passionate about creating innovative user experiences and i am ready to take on new challenges to add value to your project (blabla to change)",
+    "cv_button": "See my CV"
+  }
 }

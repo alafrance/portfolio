@@ -1,15 +1,17 @@
-import {AppNavbar} from "@/components/Navbar/AppNavbar";
 import {getTranslation, Locale} from "@/i18n";
+import Header from "@/app/[lang]/components/Header/Header";
+
+
 
 export default async function Home(props: {
   params: Promise<{ lang: Locale }>;
 }) {
   const { lang } = await props.params;
 
-  const t = await getTranslation(lang);
+  const t = await getTranslation(lang)
   return (
-    <>
-      <AppNavbar t={t}/>
-    </>
+    <main className={"m-12 md:m-24"}>
+      <Header t={t} />
+    </main>
   )
 }
