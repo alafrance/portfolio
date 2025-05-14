@@ -10,7 +10,7 @@ export default async function Home(props: {
 
   const t = await getTranslation(lang)
   return (
-    <main className={"m-12 md:m-24"}>
+    <main className={"m-12 lg:m-24"}>
       <Header t={t} />
     </main>
   )
