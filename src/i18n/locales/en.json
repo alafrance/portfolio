@@ -11,8 +11,228 @@
     "description": "Hi, i am a fullstack developer, i am passionate about creating innovative user experiences and i am ready to take on new challenges to add value to your project (blabla to change)",
     "cv_button": "See my CV"
   },
-  "skills": {
-    "title": "Skills",
-    "language": "Languages"
-  }
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": [
+        {
+          "url": "/images/skills/react.svg",
+          "title": "React"
+        },
+        {
+          "url": "/images/skills/nextjs.svg",
+          "title": "Next.js"
+        },
+        {
+          "url": "/images/skills/vue.svg",
+          "title": "Vue"
+        },
+        {
+          "url": "/images/skills/nuxt.svg",
+          "title": "Nuxt"
+        },
+        {
+          "url": "/images/skills/tailwind.svg",
+          "title": "Tailwind CSS"
+        },
+        {
+          "url": "/images/skills/vitest.svg",
+          "title": "Vitest"
+        }
+      ]
+    },
+    {
+      "title": "Backend",
+      "items": [
+        {
+          "url": "/images/skills/fastapi.svg",
+          "title": "FastAPI"
+        },
+        {
+          "url": "/images/skills/django.svg",
+          "title": "Django"
+        },
+        {
+          "url": "/images/skills/nodejs.svg",
+          "title": "Node.js"
+        },
+        {
+          "url": "/images/skills/nestjs.svg",
+          "title": "NestJS"
+        },
+        {
+          "url": "/images/skills/firebase.svg",
+          "title": "Firebase"
+        }
+      ]
+    },
+    {
+      "title": "Database",
+      "items": [
+        {
+          "url": "/images/skills/postgresql.svg",
+          "title": "PostgreSQL"
+        },
+        {
+          "url": "/images/skills/mongodb.svg",
+          "title": "MongoDB"
+        },
+        {
+          "url": "/images/skills/mysql.svg",
+          "title": "MySQL"
+        },
+        {
+          "url": "/images/skills/aws_s3.svg",
+          "title": "AWS S3"
+        }
+      ]
+    },
+    {
+      "title": "IA/ML",
+      "items": [
+        {
+          "url": "/images/skills/pandas.svg",
+          "title": "Pandas"
+        },
+        {
+          "url": "/images/skills/numpy.svg",
+          "title": "NumPy"
+        },
+        {
+          "url": "/images/skills/matplotlib.svg",
+          "title": "Matplotlib"
+        },
+        {
+          "url": "/images/skills/scikit-learn.svg",
+          "title": "Scikit-learn"
+        },
+        {
+          "url": "/images/skills/keras.svg",
+          "title": "Keras"
+        }
+      ]
+    },
+    {
+      "title": "DevOps",
+      "items": [
+        {
+          "url": "/images/skills/aws.svg",
+          "title": "AWS"
+        },
+        {
+          "url": "/images/skills/docker.svg",
+          "title": "Docker"
+        },
+        {
+          "url": "/images/skills/kubernetes.svg",
+          "title": "Kubernetes"
+        },
+        {
+          "url": "/images/skills/github.svg",
+          "title": "GitHub Actions"
+        },
+        {
+          "url": "/images/skills/gitlab.svg",
+          "title": "GitLab"
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "items": [
+        {
+          "url": "/images/skills/python.svg",
+          "title": "Python"
+        },
+        {
+          "url": "/images/skills/typescript.svg",
+          "title": "TypeScript"
+        },
+        {
+          "url": "/images/skills/c.svg",
+          "title": "C"
+        },
+        {
+          "url": "/images/skills/c++.svg",
+          "title": "C++"
+        },
+        {
+          "url": "/images/skills/c_sharp.svg",
+          "title": "C#"
+        },
+        {
+          "url": "/images/skills/rust.svg",
+          "title": "Rust"
+        }
+      ]
+    },
+    {
+      "title": "Design",
+      "items": [
+        {
+          "url": "/images/skills/figma.svg",
+          "title": "Figma"
+        },
+        {
+          "url": "/images/skills/adobe_xd.svg",
+          "title": "Adobe XD"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Ecole 42 | Spécialisation Web & IA",
+      "image": "/images/experiences/42.svg",
+      "date": "10-2024 / 04-2025",
+      "location": "Paris, France",
+      "skills": ["Vue.js", "Nuxt", "Tailwind", "Node.js", "Express", "Hono", "Postgresql",
+        "Docker", "Rust", "Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn", "Keras"],
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+      ]
+    },
+    {
+      "title": "Affordance | Fullstack web developer",
+      "image": "/images/experiences/affordance.png",
+      "date": "04-2023 / 10-2024",
+      "location": "Montréal, Canada",
+      "skills": ["MongoDB", "AWS", "Docker", "GraphQL", "Postman", "Vue.js", "Tailwind", "Typescript", "Ruby on Rails"],
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+      ]
+    },
+    {
+      "title": "Edgenda | Fullstack web developer",
+      "image": "/images/experiences/edgenda.png",
+      "date": "11-2022 / 04-2023",
+      "location": "Montréal, Canada",
+      "skills": ["React", "Redux", "Tailwind", "Typescript", "Figma", "AWS", "AWS S3", "AWS Cognito", "AWS Lambda", "AWS Api Gateway"],
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+      ]
+    },
+    {
+      "title": "École 42 | Common core",
+      "image": "/images/experiences/42.svg",
+      "date": "07-2020 / 08-2022",
+      "location": "Lyon, France",
+      "skills": ["C", "C++", "C#", "Docker", "Kubernetes", "Vue.js", "NestJS", "Typescript", "Adobe XD", "Postegresql", "Pgadmin"],
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+      ]
+    }
+  ]
 }

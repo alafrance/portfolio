@@ -21,7 +21,7 @@ export default function Globe() {
   useMotionSatellite(refs, containerRef);
 
   return (
-    <div className={"w-auto lg:size-120 relative flex justify-center items-center mb-8 lg:mb-0"} ref={containerRef}>
+    <div className={"w-auto lg:size-120 relative flex justify-center items-center mb-16 lg:mb-0"} ref={containerRef}>
       {/* Images */}
       <img src={"/images/loudmer.png"} className={"w-48 md:size-64 lg:size-84 xl:size-102"} alt={"Wolf appear between seas aka Loudmer"} />
 
