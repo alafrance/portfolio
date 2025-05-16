@@ -9,7 +9,7 @@ export default function ResumeIcons({message}: {message: string}) {
   const locale = pathname?.split("/")[1] as Locale;
   return (
     <Link href={`/images/resume_${locale}.pdf`}>
-      <Button className={"cursor-pointer"}>{message}</Button>
+      <Button className={"cursor-pointer px-4"} variant={"default"}>{message}</Button>
     </Link>
   )
 }

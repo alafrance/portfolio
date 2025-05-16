@@ -6,7 +6,7 @@ export default function Music({ref, className}: {ref: Ref<SVGSVGElement>, classN
          className={"absolute size-9 " + className}>
       <path
         d="M11.0001 7.601L5.00609 15.791C4.86505 15.9837 4.7976 16.2204 4.81594 16.4585C4.83429 16.6966 4.9372 16.9202 5.10609 17.089L5.92309 17.907C6.09444 18.0782 6.32208 18.1813 6.56375 18.1973C6.80541 18.2133 7.04467 18.1411 7.23709 17.994L15.0901 12"
-        className={"fill-red"}/>
+        className={"fill-my-accent"}/>
       <path
         d="M11.0001 7.601L5.00609 15.791C4.86505 15.9837 4.7976 16.2204 4.81594 16.4585C4.83429 16.6966 4.9372 16.9202 5.10609 17.089L5.92309 17.907C6.09444 18.0782 6.32208 18.1813 6.56375 18.1973C6.80541 18.2133 7.04467 18.1411 7.23709 17.994L15.0901 12"
         className={"stroke-primary"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

@@ -17,7 +17,7 @@ export default function PlanetLoudmer({ref}: {ref: Ref<SVGSVGElement>}) {
       {/* Road */}
       <path
         d="M61.4999 51C7.77299 111.488 40.6703 226.201 121 298C201.329 369.799 311.773 387.497 365.5 327C419.227 266.475 402.32 159.809 322 88C241.67 16.2006 115.227 -9.48778 61.4999 51Z"
-        stroke="black"
+        className="stroke-primary"
         strokeWidth="5"
         id="road"
         className={"hidden"}
