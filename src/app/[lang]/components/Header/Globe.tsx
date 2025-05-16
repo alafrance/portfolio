@@ -8,7 +8,7 @@ import Japan from "@/components/svg/Japan";
 import {RefObject, useRef} from "react";
 import {useMotionSatellite} from "@/hooks/useMotionSatellite";
 
-export default function AppGlobe() {
+export default function Globe() {
   const iconRef : RefObject<SVGSVGElement | null> = useRef(null);
   const iconRef2: RefObject<SVGSVGElement | null> = useRef(null);
   const iconRef3: RefObject<SVGSVGElement | null> = useRef(null);
@@ -26,12 +26,12 @@ export default function AppGlobe() {
       <img src={"/images/loudmer.png"} className={"w-48 md:size-64 lg:size-84 xl:size-102"} alt={"Wolf appear between seas aka Loudmer"} />
 
       {/* Icons */}
-      <Music ref={iconRef2}/>
-      <Travel ref={iconRef3}/>
-      <Code ref={iconRef4}/>
-      <Book ref={iconRef5}/>
-      <Japan ref={iconRef6}/>
-      <Mountain ref={iconRef}/>
+      <Music ref={iconRef2} className={"opacity-0"} />
+      <Travel ref={iconRef3} className={"opacity-0"} />
+      <Code ref={iconRef4} className={"opacity-0"} />
+      <Book ref={iconRef5} className={"opacity-0"} />
+      <Japan ref={iconRef6} className={"opacity-0"} />
+      <Mountain ref={iconRef} className={"opacity-0"} />
 
       {/* Paths */}
       <svg

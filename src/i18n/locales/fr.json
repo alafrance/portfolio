@@ -10,5 +10,9 @@
     "jobTitle": "Développeur Fullstack",
     "description": "Je suis passionné par la création d'expériences utilisateur innovantes et je suis prêt à relever de nouveaux défis pour apporter une valeur ajoutée à votre projet, à relever de nouveaux défis pour apporter une valeur ajoutée à votre projet (blabla à changer)",
     "cv_button": "Voir mon CV"
+  },
+  "skills": {
+    "title": "Compétences",
+    "language": "Langages"
   }
 }

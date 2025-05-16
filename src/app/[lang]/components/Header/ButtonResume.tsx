@@ -4,7 +4,7 @@ import {Button} from "@/components/ui/button";
 import {usePathname} from "next/navigation";
 import {Locale} from "@/i18n";
 
-export default function ResumeIcons({message}: {message: string}) {
+export default function ButtonResume({message}: {message: string}) {
   const pathname = usePathname();
   const locale = pathname?.split("/")[1] as Locale;
   return (

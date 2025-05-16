@@ -1,9 +1,10 @@
 import {Ref} from "react";
+import {cn} from "@/lib/utils";
 
-export default function Mountain({ref}: {ref: Ref<SVGSVGElement>}) {
+export default function Mountain({ref, className}: {ref: Ref<SVGSVGElement>, className?: string}) {
   return (
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" ref={ref}
-         className={"absolute size-9"}
+         className={cn("absolute size-9", className)}
     >
         <path
           d="M17 17H7C5.34315 17 4 17.6716 4 18.5V20.5C4 21.3284 5.34315 22 7 22H17C18.6569 22 20 21.3284 20 20.5V18.5C20 17.6716 18.6569 17 17 17Z"

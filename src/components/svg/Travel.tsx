@@ -1,9 +1,10 @@
 import {Ref} from "react";
+import {cn} from "@/lib/utils";
 
 export default function Travel({ref, className}: {ref: Ref<SVGSVGElement>, className?: string}) {
   return (
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" ref={ref}
-         className={"absolute size-9 " + className}>
+         className={cn("absolute size-9", className)}>
       <path
         d="M4.5 8.00001L15.08 2.94001C15.1999 2.8826 15.3301 2.84969 15.4629 2.8432C15.5957 2.83671 15.7285 2.85678 15.8535 2.90222C15.9784 2.94766 16.0931 3.01756 16.1907 3.10784C16.2883 3.19813 16.367 3.30697 16.422 3.42801L18.5 8.00001"
         className={"fill-my-accent"} />

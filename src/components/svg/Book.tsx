@@ -1,9 +1,10 @@
 import {Ref} from "react";
+import {cn} from "@/lib/utils";
 
 export default function Book({ref, className}: {ref: Ref<SVGSVGElement>, className?: string}) {
   return (
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" ref={ref}
-         className={"absolute size-9 " + className}>
+         className={cn("absolute size-9", className)}>
       <rect x="5" y="2" width="15" height="20" className={"fill-background"}/>
       <path d="M10 2V10L13 7L16 10V2" className={"fill-my-accent"}/>
       <path d="M10 2V10L13 7L16 10V2" className="stroke-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

@@ -20,6 +20,9 @@ export const useMotionSatellite = (refs: RefObject<SVGSVGElement | null>[],
             start: step,
             end: 1 + step,
           },
+          onStart: () => {
+            ref.current?.classList.remove("opacity-0");
+          },
           duration: 60,
           repeat: -1,
           ease: "none"

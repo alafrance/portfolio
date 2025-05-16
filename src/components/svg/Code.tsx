@@ -1,9 +1,10 @@
 import {Ref} from "react";
+import {cn} from "@/lib/utils";
 
 export default function Code({ref, className}: {ref: Ref<SVGSVGElement>, className?: string}) {
   return (
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" ref={ref}
-         className={"absolute size-9 " + className}>
+         className={cn("absolute size-9", className)}>
       <path d="M14.1201 3.88L16.0001 2" className="stroke-primary" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
       <path d="M20.97 5C20.97 7.1 19.37 8.8 17.47 9" className="stroke-primary" strokeWidth="2" strokeLinecap="round"
             strokeLinejoin="round"/>

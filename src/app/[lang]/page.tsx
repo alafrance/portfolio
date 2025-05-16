@@ -1,7 +1,6 @@
 import {getTranslation, Locale} from "@/i18n";
-import Header from "@/app/[lang]/components/Header/Header";
-
-
+import AppHeader from "@/app/[lang]/components/Header/AppHeader";
+import AppSkills from "@/app/[lang]/components/Skills/AppSkills";
 
 export default async function Home(props: {
   params: Promise<{ lang: Locale }>;
@@ -10,8 +9,9 @@ export default async function Home(props: {
 
   const t = await getTranslation(lang)
   return (
-    <main className={"m-12 lg:m-24"}>
-      <Header t={t} />
+    <main>
+      <AppHeader t={t} className={"mx-12 lg:mx-24 my-24"}/>
+      <AppSkills t={t} className={"py-12"}/>
     </main>
   )
 }
