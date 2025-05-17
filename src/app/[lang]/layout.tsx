@@ -5,6 +5,7 @@ import {Providers} from "@/app/providers";
 import React from "react";
 import {AppNavbar} from "./components/Navbar/AppNavbar";
 import {getTranslation, Locale} from "@/i18n";
+import { Toaster } from "@/components/ui/sonner"
 
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -32,6 +33,7 @@ export default async function RootLayout({
         <Providers>
           <AppNavbar t={t} />
           {children}
+          <Toaster richColors closeButton />
         </Providers>
       </body>
     </html>

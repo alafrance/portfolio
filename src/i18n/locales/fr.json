@@ -234,5 +234,83 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
       ]
     }
-  ]
+  ],
+  "projects": [
+    {
+      "title": "Mon NAS",
+      "icon": "fa-solid fa-database",
+      "image": "/images/projects/nas.jpg",
+      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_github": "https://github.com/alafrance/homeserver",
+      "tag": "web"
+    },
+    {
+      "title": "Mon NAS",
+      "image": "/images/projects/nas.jpg",
+      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_github": "https://github.com/alafrance/homeserver",
+      "tag": "web"
+    },
+    {
+      "title": "Mon NAS",
+      "image": "/images/projects/nas.jpg",
+      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_github": "https://github.com/alafrance/homeserver",
+      "tag": "web"
+    },
+    {
+      "title": "Mon NAS",
+      "image": "/images/projects/nas.jpg",
+      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_github": "https://github.com/alafrance/homeserver",
+      "tag": "web"
+    },
+    {
+      "title": "Mon NAS",
+      "image": "/images/projects/nas.jpg",
+      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_github": "https://github.com/alafrance/homeserver",
+      "tag": "web"
+    },
+    {
+      "title": "Mon NAS",
+      "image": "/images/projects/nas.jpg",
+      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link_github": "https://github.com/alafrance/homeserver",
+      "tag": "web"
+    }
+  ],
+  "contact": {
+    "submit": "Envoyer",
+    "title": "Contacte moi",
+    "phone": "+33 6 26 67 66 41",
+    "mail": "alexislafrance42@outlook.fr",
+    "location": "Thonon Les Bains, france",
+    "form": {
+      "name": "Nom",
+      "name_required": "Ton nom est requis.",
+      "name_placeholder": "Ton nom",
+      "name_error": "Ton nom doit faire au moins 2 caractères.",
+
+      "email": "Email",
+      "email_error": "Ton email n'est pas valide.",
+      "email_required": "Ton email est requis.",
+      "email_placeholder": "Ton email",
+
+      "message": "Message",
+      "message_required": "Un message est requis.",
+      "message_placeholder": "Ton message",
+      "message_error": "Ton message doit faire au moins 10 caractères.",
+
+      "success": "Ton message a bien été envoyé !",
+      "loading": "Chargement...",
+      "error": "Erreur"
+    }
+  }
 }

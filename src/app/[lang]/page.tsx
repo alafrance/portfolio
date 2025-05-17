@@ -17,8 +17,8 @@ export default async function Home(props: {
       <AppHeader t={t} className={"mx-12 lg:mx-24 my-24 lg:my-34"}/>
       <AppSkills t={t} className={"py-12"} />
       <AppExperience t={t} className={"my-12"} />
-      <AppProjects t={t} className={"py-12"} />
-      <AppContact t={t} className={"my-12"} />
+      <AppProjects t={t} className={"py-18"} />
+      <AppContact t={t} className={"my-18"} />
       <AppFooter />
     </main>
   )
