@@ -87,7 +87,7 @@ export default function AppContact({t, className}: { t: TranslationDictionary, c
   ]
 
   return (
-    <section className={cn("flex flex-col lg:flex-row justify-center lg:gap-24 gap-8", className)}>
+    <section className={cn("flex flex-col lg:flex-row justify-center lg:gap-24 gap-8", className)} id={"contact"}>
       <div className={"mr-0 lg:mr-48 flex flex-col justify-center"}>
         <h1 className={"text-center mt-4 mb-8"}>{t.contact.title}</h1>
         <div className={"flex items-center justify-center lg:justify-start mb-4"}>

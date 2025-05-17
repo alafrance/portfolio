@@ -1,6 +1,6 @@
 import "server-only";
-import type en from './locales/en.json';
-export type TranslationDictionary = typeof en;
+import type fr from './locales/fr.json';
+export type TranslationDictionary = typeof fr;
 
 export const i18n = {
   defaultLocale: "fr",
@@ -9,8 +9,8 @@ export const i18n = {
 
 export type Locale = (typeof i18n)["locales"][number];
 
-const dictionaries = {
-  en: () => import("./locales/en.json").then((module) => module.default),
+const dictionaries: {en: () => Promise<TranslationDictionary>, fr: () => Promise<TranslationDictionary>}  = {
+  en: () => import("./locales/en.json").then((module) => module.default) ,
   fr: () => import("./locales/fr.json").then((module) => module.default),
 };
 

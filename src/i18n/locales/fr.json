@@ -8,7 +8,7 @@
   "title": "Mon Application",
   "header": {
     "jobTitle": "Développeur Fullstack",
-    "description": "Je suis passionné par la création d'expériences utilisateur innovantes et je suis prêt à relever de nouveaux défis pour apporter une valeur ajoutée à votre projet, à relever de nouveaux défis pour apporter une valeur ajoutée à votre projet (blabla à changer)",
+    "description": "Passionné par le web et la data science, j’ai eu la chance de vivre deux ans à Montréal dans un environnement multiculturel enrichissant, en tant que développeur web fullstack. Diplomé de l’école 42, j’ai choisi par la suite de me spécialiser en Python et React pour allier mes deux passions.",
     "cv_button": "Voir mon CV"
   },
   "skills": [
@@ -189,10 +189,9 @@
       "skills": ["Vue.js", "Nuxt", "Tailwind", "Node.js", "Express", "Hono", "Postgresql",
         "Docker", "Rust", "Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn", "Keras"],
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+        "Spécialisation dans l'IA et le web en créant plus d'une dizaine de projets en groupe.",
+        "Création de projets web comme un clone d'Instagram et Tinder ou encore un jeu multijoueur de Tetris.",
+        "Création d'autres projets de data science comme un modèle de régression linéaire, de régression logistique, un réseau de neurone ou encore un CNN en python"
       ]
     },
     {
@@ -202,10 +201,10 @@
       "location": "Montréal, Canada",
       "skills": ["MongoDB", "AWS", "Docker", "GraphQL", "Postman", "Vue.js", "Tailwind", "Typescript", "Ruby on Rails"],
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+        "Maintien et amélioration d’une API RESTful Ruby On Rails connecté à une base de donnée Mongodb, dans un environnement multi-sites gérant +10 plateformes.",
+        "Lead développeur fullstack (solo) sur une application web éducative gamifiée développée en WebGL, Typescript. Projet livré en +7-8 mois utilisés par des élèves de Toronto pour découvrir les bases de la sociologie, de l’anthropologie, et de la psychologie de manière ludique.",
+        "&D et réalisation d’un benchmark comparatif sur l’intégration de modèles d’IA (génératif, OCR, NLP) et de moteur de jeu vidéo pour le web (Unity, Unreal, Godot, Phaser, etc...) pour optimiser le développement.",
+        "Développement d’un prototype web en Vue.js, Tailwind et Firebase pour que toutes les équipes de l’open space (+7-8 entreprises) puisse communiquer et s’entraider entre services"
       ]
     },
     {
@@ -215,10 +214,9 @@
       "location": "Montréal, Canada",
       "skills": ["React", "Redux", "Tailwind", "Typescript", "Figma", "AWS", "AWS S3", "AWS Cognito", "AWS Lambda", "AWS Api Gateway"],
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+        "Conception et développement d’une plateforme Edtech utilisant l’analyse IA de code, code review et questionnaire visant à améliorer les compétences de tout développeur.",
+        "Conception UX/UI sur Figma et développement du frontend avec React et Redux, intégrant un dashboard interactif, avec des recommandations, des graphiques dynamiques via Chart.js et des questionnaires d’évaluation.",
+        "Création de l’API RESTful avec AWS API Gateway, AWS Lambda, AWS S3 et AWS Cognito pour la gestion des utilisateurs et la scalabilité de la plateforme."
       ]
     },
     {
@@ -228,62 +226,39 @@
       "location": "Lyon, France",
       "skills": ["C", "C++", "C#", "Docker", "Kubernetes", "Vue.js", "NestJS", "Typescript", "Adobe XD", "Postegresql", "Pgadmin"],
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis consequat orci, molestie auctor metus. Cras sed sagittis orci. Pellentesque."
+        "Formation d'1 an et demi en apprentissage par pair, en créant plus de 15 projets, souvents en groupe pour développer des compétences solides en programmation avec C, C++, et du devops avec Docker et Kubernetes",
+        "Création de projets comme un jeu web Pong intégrant un chat, implémentation from scratch de la lib C, un web serveur maison Nginx en C++ et recréer le jeu iconique Wolfenstein avec son raycasting en C"
       ]
     }
   ],
   "projects": [
     {
-      "title": "Mon NAS",
-      "icon": "fa-solid fa-database",
+      "title": "NAS: Serveur Maison",
+      "icon": "devops",
       "image": "/images/projects/nas.jpg",
       "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "Orchestration de services (streaming, gestions de photos) en utilisant Docker et Docker Compose avec une mise en réseau sécurisé via CloudFlare tunnel. Administration système sur Ubuntu Server avec optimisation, gestion des bases de données (Redis, PostgreSQL) et automatisation.",
       "link_github": "https://github.com/alafrance/homeserver",
-      "tag": "web"
+      "tag": "web devops"
     },
     {
-      "title": "Mon NAS",
-      "image": "/images/projects/nas.jpg",
-      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link_github": "https://github.com/alafrance/homeserver",
-      "tag": "web"
+      "title": "Portfolio",
+      "image": "/images/projects/portfolio.png",
+      "skills": ["Next.js", "Figma", "React", "Tailwind", "Docker", "Cloudflare", "Typescript"],
+      "description": "Développement de mon portfolio pour approfondir mon apprentissage de Next.js et d'hébergement local et de design UX/UI avec Figma",
+      "link_github": "https://github.com/alafrance/portfolio",
+      "tag": "web devops",
+      "icon": "web"
     },
     {
-      "title": "Mon NAS",
-      "image": "/images/projects/nas.jpg",
-      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link_github": "https://github.com/alafrance/homeserver",
-      "tag": "web"
-    },
-    {
-      "title": "Mon NAS",
-      "image": "/images/projects/nas.jpg",
-      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link_github": "https://github.com/alafrance/homeserver",
-      "tag": "web"
-    },
-    {
-      "title": "Mon NAS",
-      "image": "/images/projects/nas.jpg",
-      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link_github": "https://github.com/alafrance/homeserver",
-      "tag": "web"
-    },
-    {
-      "title": "Mon NAS",
-      "image": "/images/projects/nas.jpg",
-      "skills": ["Docker", "Docker compose", "Ubuntu Server", "Cloudflare"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "link_github": "https://github.com/alafrance/homeserver",
-      "tag": "web"
+      "title": "Évolution du littoral français",
+      "image": "/images/projects/littoral-francais.png",
+      "skills": ["React", "Redux", "Figma", "D3.js", "Python", "Scikit-learn", "FastAPI", "Postgresql"],
+      "description": "Challenge data.gouv.fr sur le climat : analyse de l’évolution du littoral français via les données ouvertes de météo France (csv) et data.gouv.fr (Postgresql). Application web interactive : API Fastapi avec ML (sklearn), frontend React + D3.js (graph), design sur Figma.",
+      "link_github": "https://github.com/alafrance/littoral-francais",
+      "link": "https://alafrance.github.io/littoral-francais/",
+      "tag": "web ia",
+      "icon": "ia"
     }
   ],
   "contact": {

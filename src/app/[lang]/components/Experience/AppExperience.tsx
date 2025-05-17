@@ -5,7 +5,7 @@ import {Badge} from "@/components/ui/badge";
 
 export default function AppExperience({t, className}: { t: TranslationDictionary, className?: string}) {
   return (
-    <section className={cn("flex justify-center", className)}>
+    <section className={cn("flex justify-center", className)} id={"experience"}>
       <div className={"max-w-7xl"}>
         <h1 className={"text-center mt-4 mb-18"}>{t.navbar.experience}</h1>
         {t.experiences.map((experience, index) => (

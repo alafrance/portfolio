@@ -7,6 +7,7 @@ import Book from "@/components/svg/Book";
 import Japan from "@/components/svg/Japan";
 import {RefObject, useRef} from "react";
 import {useMotionSatellite} from "@/hooks/useMotionSatellite";
+import Image from "next/image";
 
 export default function Globe() {
   const iconRef : RefObject<SVGSVGElement | null> = useRef(null);
@@ -23,7 +24,7 @@ export default function Globe() {
   return (
     <div className={"w-auto lg:size-120 relative flex justify-center items-center mb-16 lg:mb-0"} ref={containerRef}>
       {/* Images */}
-      <img src={"/images/loudmer.png"} className={"w-48 md:size-64 lg:size-84 xl:size-102"} alt={"Wolf appear between seas aka Loudmer"} />
+      <Image width={1000} height={1000} src={"/images/loudmer.png"} className={"w-48 md:size-64 lg:size-84 xl:size-102"} alt={"Wolf appear between seas aka Loudmer"} />
 
       {/* Icons */}
       <Music ref={iconRef2} className={"opacity-0"} />
