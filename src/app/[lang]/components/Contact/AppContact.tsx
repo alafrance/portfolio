@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button"
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -48,6 +47,7 @@ export default function AppContact({t, className}: { t: TranslationDictionary, c
   function onSubmit(values: z.infer<typeof formSchema>) {
     const apiEndpoint = '/api/email';
 
+    // Can improve with swr
     toast.promise(fetch(apiEndpoint, {
       method: 'POST',
       body: JSON.stringify(values),
